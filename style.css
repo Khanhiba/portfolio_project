@@ -1,0 +1,162 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+html{
+    background-color:  #e8f9fd;
+    height : 100%;
+}
+.wrapper{
+    padding-top: 0%;
+    padding-left : 1rem;
+    padding-right: 1rem;
+}
+.heroSection{
+    background-color: whitesmoke;
+    height : 50%;
+    border : 2px;
+    border-radius: 1rem;
+}
+.navbar{
+    display: flex;
+    font-size : 2rem;
+    justify-content: space-between;
+    padding: 5.1rem;
+    border: 2px solid black;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2.2rem;
+
+
+}
+#logo{
+    height: 7rem;
+    width: 7rem;
+}
+a{
+    text-decoration: none;
+}
+#home{
+    color: #cf7623;
+    
+}
+#about, #contact{
+    color: black;
+}
+.active{
+    margin-left: 2rem;
+     
+}
+.logoes{
+    height: 2.5rem;
+    width: 2.5rem
+}
+ .content{
+    display : flex;
+    flex-direction: column;
+    margin : 6px;
+    gap : 10px;
+    /* padding : 2rem; */
+    /* border : 2px solid black; */
+    padding-left : 3.5rem;
+    width: 65%;
+
+
+} 
+.box{
+    margin: 1.2rem;
+    width : 95%;
+    
+
+}
+#welcome{
+  color :#0c7489; 
+  font-size: 2.5rem; 
+  /* border:solid 2px black; */
+}
+#name{
+  font-size: 4.5rem; 
+  font-weight: 550;
+  color : #0c7489;
+}
+#webDev{
+   color: #cf7623;
+}
+#aboutMyself{
+  font-size: 1.8rem;
+  font-weight: 540;
+
+}
+#btn1{
+   height: 3.5rem;
+   width: 12rem;
+   font-size: 2rem;
+   color:#e8f9fd;
+   border: 2px;
+   /* border-radius: 10px; */
+   border: 2px;
+   background-color: #02a8ad;
+
+}
+#btn2{
+  height: 3.5rem;
+  width: 18rem;
+  font-size: 2rem;
+  border: solid 2px #02a8ad;
+  /* border-radius: ; */
+  color:  #02a8ad;
+}
+.button{
+    margin: 0.9rem;
+    border-radius: 0.8rem;
+}
+#btn1:hover{
+    background-color: white;
+    color:  #02a8ad;
+    border:2px solid #02a8ad;
+}
+#btn2:hover{
+    background-color: #02a8ad;
+    color:#e8f9fd;
+}
+img{
+    height: 28rem;
+    width: 21rem;
+    border: 2px;
+    border-radius: 2rem;
+    
+    
+}
+.parentC{
+    display : flex;
+    justify-content: space-evenly;
+}
+.profilePic{
+    align-self: center;
+    padding: 6rem;
+    position: relative; /* Allows stacking */
+    z-index: 1; /* Ensures the image is in front of the card */
+    border-radius: 2rem;
+    display: block;
+}
+.img-card-container{
+    position: relative; 
+    /* border:#cf7623 solid 2px; */
+    margin-left: 2.5rem;
+    /* margin-top: 2.3rem; */
+    
+}
+.card {
+    position: absolute;  
+    top: 2rem; 
+    left: 2rem;
+    height: 28rem; 
+    width: 21rem; 
+    background-color: #e5e5e5; 
+    z-index: 0; 
+    border-radius: 2rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
